@@ -24,12 +24,12 @@ let salarioLiquido = 0;
 salarioBeneficios = {"salario" : 1001.00, "beneficio" : 250};
 
 if (salarioBeneficios["salario"] > 2500.00){
-    salarioDesconto = salarioBeneficios["salario"] * 0.15;
-    salarioLiquido = salarioBeneficios["salario"] - salarioDesconto + salarioBeneficios["beneficio"];
+     salarioDesconto = salarioBeneficios["salario"] * 0.15;
+     salarioLiquido = salarioBeneficios["salario"] - salarioDesconto + salarioBeneficios["beneficio"];
 
 }else if(salarioBeneficios["salario"] > 1100.00 && salarioBeneficios["salario"] <= 2500.00){
-    salarioDesconto = salarioBeneficios["salario"] * 0.10;
-    salarioLiquido = salarioBeneficios["salario"] - salarioDesconto + salarioBeneficios["beneficio"];
+     salarioDesconto = salarioBeneficios["salario"] * 0.10;
+     salarioLiquido = salarioBeneficios["salario"] - salarioDesconto + salarioBeneficios["beneficio"];
 
 }else{
     salarioDesconto = salarioBeneficios["salario"] * 0.05;
@@ -37,3 +37,4 @@ if (salarioBeneficios["salario"] > 2500.00){
 }
 
 print(salarioLiquido)
+

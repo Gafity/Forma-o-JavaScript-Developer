@@ -1,0 +1,19 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filtrando-numeros-par.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0"
+  }
+}
